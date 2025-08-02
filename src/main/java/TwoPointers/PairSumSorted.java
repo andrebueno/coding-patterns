@@ -4,6 +4,8 @@ import java.util.ArrayList;
 
 public class PairSumSorted {
 
+    /// O(N) in time and O(1) in space
+    ///
     public static ArrayList<Integer> pair_sum_sorted(ArrayList<Integer> nums, int target) {
         ArrayList<Integer> result = new ArrayList<>();
 
